@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/branding/close-up-wool-texture-design.jpg);
+    background-size: cover;
+    flex-wrap: wrap !important;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.headerBranding {
+    background-color: rgba(255, 228, 196, 0.89);
+    padding: 0.7%;
+    border-radius: 30%;
+    text-align: center;
+    align-self: center;
+}
+
+#headerName {
+    color: rgb(177, 98, 2);
+    font-family: "Caveat Brush", cursive;
+    font-style: bold;
+}
+
+#headerMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 10px;
+    background-color: rgba(255, 228, 196, 0.89);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.nav-item:hover {
+    background-color: rgba(180, 109, 83, 0.801);
+    border: 2px dashed bisque;
+    border-radius: 10px;
+    color: bisque;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(177, 98, 2);
+    font-family: "Caveat Brush", cursive;
+    font-size: 160%;
+    font-style: bold;
+    text-align: center;
+    align-content: center;
+}
+
+.nav-link:hover {
+    color: bisque;
+}
+
+.name {
+    color:bisque;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: bold;
+}
+
+
+#hero {
+    background-color: rgba(180, 109, 83, 0.801);
+    width: 70%;
+    margin: 0.9%;
+    align-self: center;
+    border: 3px dashed bisque;
+    border-radius: 30%;
+    text-align: center;
+    padding: 1.5%;
+    justify-self: center;
+}
+
+#mainName {
+    font-size: 600%;
+    justify-self: center;
+}
+
+.lead {
+    width: 89%;
+    font-size: 220%;
+    color: bisque;
+    justify-self: center;
+    font-family: "Caveat Brush", cursive
+}
+
+@media (max-width: 992px) {
+    #hero {
+        width: 90%;
+    }
+    #mainName {
+        font-size: 420%;
+        padding-top: 4%;
+    }
+    .lead {
+        font-size: 180%;
+        width: 80%;
+    }
+}
+
+#priceCards {
+    width: 90%;
+    justify-self: center;
+}
+
+@media (max-width: 992px) {
+    #priceCards {
+        width: 80%;
+        padding: 3%;
+    }
+}
+
+.card {
+    background: transparent;
+    border: transparent;
+}
+
+.card-header {
+    background-color: rgba(255, 228, 196, 0.801);
+    border: 2px dashed rgb(223, 138, 77);
+    border-bottom: 1px dashed rgb(194, 114, 16);
+    border-top: 0;
+    width: 100%;
+    align-self: center;
+    color: rgb(177, 98, 2);
+    font-family: "Caveat Brush", cursive;
+}
+
+.card-body {
+    color: rgb(252, 214, 168);
+    font-family: "Caveat Brush", cursive;
+    font-size: 170%;
+    background-color: rgba(139, 69, 19, 0.555);
+    border: 2px dashed rgb(218, 134, 74);
+    border-top: 0;
+    border-radius: 0% 0% 40% 40%;
+}
+
+#footer {
+    background-color: rgba(180, 109, 83, 0.664);
+    width: 100%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#footer span {
+    font-size: 160%;
+}

@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/branding/close-up-wool-texture-design.jpg);
+    background-size: cover;
+    flex-wrap: wrap !important;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+}
+
+.headerBranding {
+    background-color: rgba(255, 228, 196, 0.89);
+    padding: 0.5%;
+    border-radius: 45%;
+    align-self: center;
+}
+
+.name {
+    color:bisque;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: bold;
+}
+
+#mainName {
+    font-size: 600%;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    #mainName {
+        font-size: 400%;
+    }
+}
+
+@media (max-width: 992px) {
+    #mainName {
+        font-size: 480%;
+    }
+}
+
+#hero {
+    background-color: rgba(180, 109, 83, 0.801);
+    width: 70%;
+    margin: 1%;
+    align-self: center;
+    border: 3px dashed bisque;
+    border-radius: 30%;
+    text-align: center;
+    padding: 1.5%;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        width: 90%;
+    }
+}
+
+.col-lg-6 {
+    width: 100%;
+    justify-items: center;
+    margin: 2px;
+    font-family: "Caveat Brush", cursive;
+}
+
+.lead {
+    width: 80%;
+    font-size: 200%;
+    color: bisque;
+}
+
+.d-grid {
+    gap: 70px;
+}
+
+@media (max-width: 768px) {
+    .d-grid {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .d-grid {
+        gap: 40px;
+    }
+}
+
+.text-body-secondary {
+    padding: 1%;
+    border-radius: 40%;
+}
+
+.text-body-secondary:hover {
+    background-color: saddlebrown;
+}
+
+#footer {
+    background-color: rgba(180, 109, 83, 0.664);
+    width: 100%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#footer span {
+    font-size: 160%;
+}

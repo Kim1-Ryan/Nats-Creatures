@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="catalogue.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--header-->
+    <div class="container"> 
+        <header id="header" class="d-flex flex-wrap py-4"> 
+            
+            <!--header left, brand-->
+            <div class="headerBranding">
+                <a href="./index.html" class="d-flex align-items-center text-decoration-none"> 
+                    
+                    <img src="./assets/branding/Nat's Creatures LOGO.png" alt="Nat's Creatures Logo" height="60" class="me-1"> 
+                    <span id="headerName" class="name fs-2">Nat's Creatures</span> 
+                
+                </a>
+            </div>
+           
+            <!--header right, menu-->
+            <ul id="headerMenu" class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="./pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        
+        </header>
+    </div>
+
+    <!--center content-->
+    <div id="hero"> 
+
+        <!--hero heading and subheading-->
+        <h1 id="mainName" class="name">Made with love!</h1> 
+        
+        <p class="lead">There's something for everyone! Reach into a pocket:</p>
+       
+
+        <!--pricing cards-->
+        <div id="priceCards" class="row row-cols-1 row-cols-lg-3 text-center"> 
+            
+            <div class="col">
+                <a href="./store/plushies.html" class="text-decoration-none"> 
+                    <div class="card mb-4"> 
+                        <div class="card-header py-3"> 
+                            <h2 class="my-0">Plushies</h2> 
+                        </div> 
+                        <div class="card-body"> 
+                            <ul class="list-unstyled mt-2 mb-4"> 
+                                <li>Animals</li> 
+                                <li>Bugs & Critters</li> 
+                                <li>Fantasy Creatures</li> 
+                                <li>Popular Characters</li> 
+                            </ul> 
+                        </div> 
+                    </div> 
+                </a>
+            </div> 
+            
+            <div class="col"> 
+                <a href="./store/fashion.html" class="text-decoration-none">
+                    <div class="card mb-4"> 
+                        <div class="card-header py-3"> 
+                            <h2 class="my-0">Fashion</h2> 
+                        </div> 
+                        <div class="card-body"> 
+                            <ul class="list-unstyled mt-2 mb-4"> 
+                                <li>Scarves & Hats</li> 
+                                <li>Tops & Bottoms</li> 
+                                <li>Bags</li> 
+                                <li>Accessories</li> 
+                            </ul> 
+                        </div> 
+                    </div> 
+                </a>
+            </div> 
+           
+            <div class="col"> 
+                <a href="./store/commissions.html" class="text-decoration-none">
+                    <div class="card mb-4"> 
+                        <div class="card-header py-3"> 
+                            <h2 class="my-0">Commissions</h2> 
+                        </div> 
+                        <div class="card-body"> 
+                            <ul class="list-unstyled mt-2 mb-4"> 
+                                <li>Pet Clones</li> 
+                                <li>Imaginative Creations</li> 
+                                <li>Custom Requests</li> 
+                                <li>You ask, I crochet!</li> 
+                            </ul> 
+                        </div> 
+                    </div> 
+                </a>
+            </div> 
+        
+        </div>
+
+        <a href="./store/all-products.html" class="text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="55" fill="bisque" class="bi bi-box2-heart-fill" viewBox="0 0 16 16"><path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1zM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/></svg>
+            <p class="name pt-2">View All</p>
+        </a>
+    
+    </div>
+
+
+    <!--footer-->
+    <div class="container"> 
+        
+        <footer id="footer" class="d-flex justify-content-center py-2 my-4"> 
+            
+            <!--footer left-->
+            <div class="d-flex align-items-center"> 
+                <a href="https://www.facebook.com/share/182buaeSmq/" class="me-2 mb-md-0 text-decoration-none"> 
+                    <img id="footerLogo" src="./assets/branding/Nat's Creatures LOGO.png" alt="logo" height="50"> 
+                </a> 
+                <span class="name mb-md-0">© Nat's Creatures.</span> 
+            </div> 
+        
+        </footer> 
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

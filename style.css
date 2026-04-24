@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/branding/close-up-wool-texture-design.jpg);
+    background-size: cover;
+    flex-wrap: wrap !important;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.headerBranding {
+    background-color: rgba(255, 228, 196, 0.89);
+    padding: 0.7%;
+    border-radius: 30%;
+    text-align: center;
+    align-self: center;
+}
+
+#headerName {
+    color: rgb(177, 98, 2);
+    font-family: "Caveat Brush", cursive;
+    font-style: bold;
+}
+
+#headerMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 10px;
+    background-color: rgba(255, 228, 196, 0.89);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.nav-item:hover {
+    background-color: rgba(180, 109, 83, 0.801);
+    border: 2px dashed bisque;
+    border-radius: 10px;
+    color: bisque;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(177, 98, 2);
+    font-family: "Caveat Brush", cursive;
+    font-size: 160%;
+    font-style: bold;
+    text-align: center;
+    align-content: center;
+}
+
+.nav-link:hover {
+    color: bisque;
+}
+
+.name {
+    color:bisque;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: bold;
+}
+
+#mainLogo {
+    width: 38%;
+    justify-self: center;
+}
+
+#mainName {
+    font-size: 600%;
+}
+
+@media (max-width: 768px) {
+    #mainName {
+        font-size: 400%;
+    }
+}
+
+#hero {
+    background-color: rgba(180, 109, 83, 0.801);
+    width: 70%;
+    margin: 1%;
+    align-self: center;
+    border: 3px dashed bisque;
+    border-radius: 30%;
+    text-align: center;
+    padding: 1.5%;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        width: 90%;
+    }
+}
+
+.col-lg-6 {
+    width: 100%;
+    justify-items: center;
+    margin: 3px;
+    font-family: "Caveat Brush", cursive
+}
+
+.lead {
+    width: 97%;
+    font-size: 190%;
+    color: bisque;
+}
+
+.d-grid {
+    gap: 50px;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .d-grid {
+        padding-top: 0;
+        gap: 20px;
+    }
+}
+
+.btn {
+    font-size: 200%;
+    border: 1px solid bisque;
+    border-radius: 20px;
+}
+
+.btn:hover  {
+    background-color: transparent;
+    border: 2px dashed bisque;
+    
+}
+
+#footer {
+    background-color: rgba(180, 109, 83, 0.664);
+    width: 100%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 36%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+@media (max-width: 380px) {
+    #footerBranding {
+        flex-direction: column;
+    }
+    #footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+#footer span {
+    font-size: 150%;
+}
+
+#footerIcons {
+    align-items: center;
+}
+
+
