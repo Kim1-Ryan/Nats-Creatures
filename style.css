@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url(./assets/branding/close-up-wool-texture-design.jpg);
+    background-image: url(./close-up-wool-texture-design.jpg);
     background-size: cover;
     flex-wrap: wrap !important;
     text-align: center;
