@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/branding/close-up-wool-texture-design.jpg);
+    background-size: cover;
+    flex-wrap: wrap !important;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+}
+
+.headerBranding {
+    background-color: rgba(255, 228, 196, 0.89);
+    padding: 0.5%;
+    border-radius: 45%;
+    align-self: center;
+}
+
+.name {
+    color:bisque;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: bold;
+}
+
+#mainName {
+    color: rgb(73, 31, 1);
+    font-size: 600%;
+    padding-top: 6px;
+}
+
+@media (max-width: 768px) {
+    #mainName {
+        font-size: 400%;
+    }
+}
+
+@media (max-width: 992px) {
+    #mainName {
+        font-size: 480%;
+    }
+}
+
+#hero {
+    background-color: rgba(214, 161, 140, 0.89);
+    width: 70%;
+    margin: 1%;
+    align-self: center;
+    border: 3px dashed rgb(105, 56, 9);
+    border-radius: 30%;
+    text-align: center;
+    padding: 1.5%;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        width: 90%;
+    }
+}
+
+.col-lg-6 {
+    width: 100%;
+    justify-items: center;
+    font-family: "Caveat Brush", cursive;
+}
+
+.d-grid {
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .d-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .d-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+.text-body-secondary {
+    width: 140%;
+    padding: 4%;
+    text-align: center;
+    border: 6px solid rgb(105, 56, 9);
+    background-color: rgba(170, 110, 61, 0.726);
+    border-radius: 50%;
+}
+
+.text-body-secondary:hover {
+    background-color: rgba(240, 201, 155, 0.89);
+}
+
+@media (max-width: 992px) {
+    .text-body-secondary {
+        padding: 22%;
+    }
+}
+
+#footer {
+    background-color: rgba(180, 109, 83, 0.664);
+    width: 100%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#footer span {
+    font-size: 160%;
+}
