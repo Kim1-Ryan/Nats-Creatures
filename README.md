@@ -3,22 +3,6 @@
 
 ## Handmade, crochet plushies/fashion.
 
-## Installation
-1. Clone the repository
-2. 
-
-## Usage
-Visit `http://localhost:3000` in your browser to use the application.
-
-## Contributing
-Feel free to submit pull requests or open issues.
-
-## License
-
-
-## Contact
-Email: 
-
 
 ****************************************************************************************
 
